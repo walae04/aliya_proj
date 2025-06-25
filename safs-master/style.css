@@ -883,7 +883,7 @@ button:focus {
 }
 
 .single-portfolio {
-    height: 240px;
+    height: 320px;
     margin-bottom: 15px;
     background-position: center;
     background-size: cover;
@@ -901,9 +901,9 @@ button:focus {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #6c757d;
+    
     opacity: .9;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    
     -webkit-transition: .3s;
     transition: .3s;
     z-index: -1;
@@ -921,7 +921,7 @@ button:focus {
     left: 50%;
     margin-left: -20px;
     opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  
     visibility: hidden;
     -webkit-transition: .6s;
     transition: .6s;
@@ -929,7 +929,7 @@ button:focus {
 
 .single-portfolio:hover .portfolio-icon {
     opacity: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+
     visibility: visible;
     top: 50%
 }
@@ -966,7 +966,7 @@ button:focus {
     -webkit-transition: .3s;
     transition: .3s;
     opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
     visibility: hidden;
 }
 
@@ -984,7 +984,6 @@ button:focus {
 .single-portfolio:hover .portfolio-hover {
     bottom: 0;
     opacity: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     visibility: visible
 }
 
